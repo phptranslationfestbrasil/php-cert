@@ -1,0 +1,20 @@
+{
+    "name": "phpsanca/php-cert",
+    "description": "php-cert is a sample project from workshop 'PHP is much better than you think' ministered at Semcomp ICMC - USP 2014.",
+    "minimum-stability": "stable",
+    "license": "Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)",
+    "authors": [
+        {
+            "name": "brunoric",
+            "email": "brunoric@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "phpsanca\\phpcert\\": "src\/"
+        }
+    },
+    "require" : {
+        "mpdf/mpdf": "5.7.2"
+    }
+}
