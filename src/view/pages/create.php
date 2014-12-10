@@ -12,8 +12,6 @@ $view = <<<HTML
         <form name="create" id="create" action="app.php" method="get">
             <select name="cert" style="width: 200px;">
                 <option name="cert" value="">Type of certificate</option>
-                <option name="cert" value="semcomp">Semcomp</option>
-                <option name="cert" value="divetinto">Dive Into PHP</option>
                 <option name="cert" value="translationfest">Translation Fest</option>
             </select><br><br>
             <label for="student">Student</label><br>
