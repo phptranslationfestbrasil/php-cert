@@ -10,11 +10,6 @@ $view = <<<HTML
 <div style="text-align: center">
     <h1>phpcert - Create new certificate</h1>
         <form name="create" id="create" action="app.php" method="get">
-            <select name="cert" style="width: 200px;">
-                <option name="cert" value="">Type of certificate</option>
-                <option name="cert" value="translationfest">Translation Fest</option>
-            </scityr><city/br>
-
             <select name="usergroup" style="width: 200px;">
                 <option name="usergroup" value="">Name of user group</option>
                 <option name="usergroup" value="Grupo de usuários PHPSP">Grupo de usuários PHPSP</option>
@@ -57,8 +52,11 @@ $view = <<<HTML
             <label for="student">Student</label></br>
             <input type="text" name="student" style="width: 200px;"></br></br>
 
-            <label for="course">Course</label></br>
-            <input type="text" name="course" style="width: 200px;"></br></br>
+            <label for="organizerOne">organizerOne</label></br>
+            <input type="text" name="organizerOne" style="width: 200px;"></br></br>
+
+            <label for="organizerTwo">organizerTwo</label></br>
+            <input type="text" name="organizerTwo" style="width: 200px;"></br></br>
 
             <input type="submit" name="action" value="Generate">
             <input type="submit" name="action" value="Preview">
